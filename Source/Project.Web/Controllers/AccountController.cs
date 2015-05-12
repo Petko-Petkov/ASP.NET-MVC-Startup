@@ -12,6 +12,8 @@ using Project.Web.Models;
 
 namespace Project.Web.Controllers
 {
+    using Project.Models;
+
     [Authorize]
     public class AccountController : Controller
     {

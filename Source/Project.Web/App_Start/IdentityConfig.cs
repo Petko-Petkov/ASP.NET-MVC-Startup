@@ -14,6 +14,9 @@ using Project.Web.Models;
 
 namespace Project.Web
 {
+    using Data;
+    using Project.Models;
+
     public class EmailService : IIdentityMessageService
     {
         public Task SendAsync(IdentityMessage message)
