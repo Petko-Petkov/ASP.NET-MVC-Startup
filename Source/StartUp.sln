@@ -9,11 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{93A09B69-847
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data", "Project.Data\Project.Data.csproj", "{004EF6AE-4D9C-4F53-A4C8-75ADED513113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Models", "Project.Models\Project.Models.csproj", "{330891DD-A04D-43A5-A49A-2EB47ED56761}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data.Models", "Project.Models\Project.Data.Models.csproj", "{330891DD-A04D-43A5-A49A-2EB47ED56761}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Web", "Project.Web\Project.Web.csproj", "{114E31E8-B581-44ED-BFB8-B448D97BA0E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E6E9539-4FD7-4CB3-AE6C-536434DB236B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data.Contracts", "Project.Contracts\Project.Data.Contracts.csproj", "{83E55657-50C7-4AC8-890B-96EDD68E6638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{114E31E8-B581-44ED-BFB8-B448D97BA0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114E31E8-B581-44ED-BFB8-B448D97BA0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114E31E8-B581-44ED-BFB8-B448D97BA0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E55657-50C7-4AC8-890B-96EDD68E6638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E55657-50C7-4AC8-890B-96EDD68E6638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E55657-50C7-4AC8-890B-96EDD68E6638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E55657-50C7-4AC8-890B-96EDD68E6638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 		{004EF6AE-4D9C-4F53-A4C8-75ADED513113} = {C80E5A8A-AD67-434D-9C50-6D792ED595B9}
 		{330891DD-A04D-43A5-A49A-2EB47ED56761} = {C80E5A8A-AD67-434D-9C50-6D792ED595B9}
 		{114E31E8-B581-44ED-BFB8-B448D97BA0E1} = {93A09B69-847F-43C2-9102-53E87C01BA36}
+		{83E55657-50C7-4AC8-890B-96EDD68E6638} = {C80E5A8A-AD67-434D-9C50-6D792ED595B9}
 	EndGlobalSection
 EndGlobal

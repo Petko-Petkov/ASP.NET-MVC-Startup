@@ -261,13 +261,17 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Project.Contracts\Project.Data.Contracts.csproj">
+      <Project>{83e55657-50c7-4ac8-890b-96edd68e6638}</Project>
+      <Name>Project.Data.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Project.Data\Project.Data.csproj">
       <Project>{004ef6ae-4d9c-4f53-a4c8-75aded513113}</Project>
       <Name>Project.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Project.Models\Project.Models.csproj">
+    <ProjectReference Include="..\Project.Models\Project.Data.Models.csproj">
       <Project>{330891dd-a04d-43a5-a49a-2eb47ed56761}</Project>
-      <Name>Project.Models</Name>
+      <Name>Project.Data.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

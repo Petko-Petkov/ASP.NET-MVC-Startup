@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{004EF6AE-4D9C-4F53-A4C8-75ADED513113}</ProjectGuid>
+    <ProjectGuid>{330891DD-A04D-43A5-A49A-2EB47ED56761}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Project.Data</RootNamespace>
-    <AssemblyName>Project.Data</AssemblyName>
+    <RootNamespace>Project.Models</RootNamespace>
+    <AssemblyName>Project.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -56,23 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationDbContext.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ApplicationUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Project.Contracts\Project.Data.Contracts.csproj">
       <Project>{83e55657-50c7-4ac8-890b-96edd68e6638}</Project>
       <Name>Project.Data.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Project.Models\Project.Data.Models.csproj">
-      <Project>{330891dd-a04d-43a5-a49a-2eb47ed56761}</Project>
-      <Name>Project.Data.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
