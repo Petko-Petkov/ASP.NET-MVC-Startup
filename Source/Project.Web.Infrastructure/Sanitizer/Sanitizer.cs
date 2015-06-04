@@ -2,7 +2,7 @@
 {
     using Ganss.XSS;
 
-    public class Sanitizer
+    public class Sanitizer : ISanitizer
     {
         public string Sanitize(string html)
         {

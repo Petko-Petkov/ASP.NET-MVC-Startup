@@ -1,16 +1,16 @@
-﻿using System;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin;
-using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
-using Owin;
-using Project.Web.Models;
-
-namespace Project.Web
+﻿namespace Project.Web
 {
-    using Data;
+    using System;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+    using Microsoft.Owin;
+    using Microsoft.Owin.Security.Cookies;
+    
+    using Owin;
+    
     using Project.Models;
+    using Data;
 
     public partial class Startup
     {

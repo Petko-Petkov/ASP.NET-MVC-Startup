@@ -8,6 +8,7 @@ namespace Project.Web.App_Start
     using System.Web;
     using Contracts.Repositories;
     using Data;
+    using Infrastructure.Sanitizer;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
     using Ninject;
@@ -66,6 +67,8 @@ namespace Project.Web.App_Start
             kernel.Bind<DbContext>().To<ApplicationDbContext>();
             kernel.Bind(typeof(IDeletableEntityRepository<>)).To(typeof(DeletableEntityRepository<>));
             kernel.Bind(typeof(IRepository<>)).To(typeof(GenericRepository<>));
+
+            kernel.Bind<ISanitizer>().To<Sanitizer>();
         }        
     }
 }
