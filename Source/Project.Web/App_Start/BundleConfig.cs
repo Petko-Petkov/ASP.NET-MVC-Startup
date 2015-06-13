@@ -33,7 +33,7 @@
         private static void RegisterScriptBundels(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.slate.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }

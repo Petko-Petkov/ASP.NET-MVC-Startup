@@ -2,6 +2,7 @@
 {
     using System.Data.Entity;
     using System.Linq;
+
     using Models;
 
     public class DeletableEntityRepository<T> : GenericRepository<T>, IDeletableEntityRepository<T>
